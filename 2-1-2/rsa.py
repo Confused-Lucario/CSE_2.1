@@ -115,6 +115,7 @@ def multiplicative_inverse(a, b):
 
 
 def rwh_primes2(n):
+    global xrange
     # https://stackoverflow.com/questions/2068372/fastest-way-to-list-all-primes-below-n-in-python/3035188#3035188
     """ Input n>=6, Returns a list of primes, 2 <= p < n """
     correction = (n % 6 > 1)
